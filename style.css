@@ -1,0 +1,104 @@
+* {
+    transition: all 0.5s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    transition: 0.5s;
+}
+
+#logo{
+    position: absolute; /* Posiciona la imagen de forma absoluta */
+            top: 10px; /* Ajusta la distancia desde la parte superior */
+            left: 10px; /* Ajusta la distancia desde la izquierda */
+            width: 50px; /* Establece el ancho de la imagen */
+            height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+            filter: drop-shadow(0px 7px 21px #fba806);
+            cursor: pointer;
+}
+
+body {
+    background-color: #352e7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    display: flex;
+    max-width: 1700px; /* ajustar el ancho máximo según sea necesario */
+}
+
+.encabezado {
+    background-color: white;
+    flex: 1;
+    padding: 20px;width: 1000px;
+}
+
+.pregunta{
+    font-size: 30px;
+    padding: 10px;
+}
+ 
+.pregunta2{
+    font-size: 20px;
+    color: white;
+}
+
+.texto {
+   /* background-color: red;*/
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+}
+
+.btn {
+    background: white;
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+    max-width: 550px;
+}
+
+.btn:hover {
+    background: orange;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.titulo_b{
+    color: white;
+    font-size: 30px;
+}
+
+.titulo_b:hover{
+    color: orange;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.info_b{
+    padding: 15px;
+    font-size: 40px;
+    color: white;
+
+}
+
+.otros{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    width: 147px;
+    height: 18px;
+}
+
+.otros:hover{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    width: 147px;
+    height: 18px;
+    cursor: pointer;
+}
