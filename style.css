@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     transition: 0.5s;
+    text-transform: uppercase;
 }
 
 #logo {
@@ -96,7 +97,7 @@ body {
     color: black;
     padding: 10px;
     background-color: white;
-    width: 147px;
+    width: 200px;
     height: 18px;
 }
 
@@ -105,38 +106,29 @@ body {
     color: white;
     padding: 10px;
     background-color: black;
-    width: 147px;
-    height: 18px;
     cursor: pointer;
 }
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .contenedor {
         flex-direction: column;
         align-items: center; /* Centramos los elementos horizontalmente */
     }
-
-    .encabezado, .texto {
-        width: 90%; /* Ancho del 90% para centrarlos y dar un poco de espacio a los lados */
-        padding: 10px;
-        margin: 5px 0; /* Añadimos un pequeño margen vertical entre los elementos */
+    .boton, .checkbox-container {
+        margin-top: 10px; /* Ajustamos el margen entre el botón y el checkbox */
+        text-align: center; /* Alineamos los elementos horizontalmente */
     }
-
-    .encabezado {
-        background-color: white;
-        font-size: 16px; /* Reducimos un poco más el tamaño de fuente del encabezado */
+    input[type="checkbox"] {
+        height: 25px; /* Ajustamos el tamaño del checkbox para dispositivos móviles */
+        width: 25px;
     }
-
-    .texto {
-        background-color: #352e7d;
-        color: white;
-        font-size: 14px; /* Reducimos un poco más el tamaño de fuente del texto */
+    input[type="checkbox"]:after {
+        font-size: 18px; /* Ajustamos el tamaño del icono dentro del checkbox */
     }
-
-    .logo {
-        padding: 10px; /* Ajustamos el padding del logo */
+    button {
+        font-size: 16px; /* Ajustamos el tamaño del texto del botón */
     }
 }
 
