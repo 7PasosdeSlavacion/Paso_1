@@ -193,6 +193,6 @@ function readText(ruta_local) {
 }
 
 function inicio(){
-    var url = "menu.html";
+    var url = "index.html";
     window.location.href = url;
 }
