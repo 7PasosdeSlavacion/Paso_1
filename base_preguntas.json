@@ -1,8 +1,8 @@
 [
     {
         "categoria": "Paso 1",
-        "pregunta": "¿A quien debemos ver para poder ser libres del pecado?",
-        "respuesta": "A JESUS",
+        "pregunta": "¿A quién debemos ver para poder ser libres del pecado?",
+        "respuesta": "A JESÚS",
         "incorecta_1": "A UN AMIGO",
         "incorecta_2": "A MI FAMILIA",
         "imagen": "https://desdelafe.mx/wp-content/uploads/2023/09/Jesus-Emmanuel.jpg",
@@ -15,8 +15,8 @@
         "categoria": "Paso 1",
         "pregunta": "¿Dónde y como tenemos que ver a Jesús? ",
         "respuesta": "EN LA CRUZ – MURIENDO POR NUESTRA SALVACIÓN",
-        "incorecta_1": "EN NUESTRA CASA - AYUDANDONOS",
-        "incorecta_2": "EN EL PARQUE - SALVANDONOS",
+        "incorecta_1": "EN NUESTRA CASA - AYUDÁNDONOS",
+        "incorecta_2": "EN EL PARQUE - SALVÁNDONOS",
         "imagen": "https://churchofjesuschrist.org/imgs/7d341df691f1697dc08455fc4b3ff3e393de8a2e/full/500%2C/0/default",
         "object_fit": "cover",
         "cita_biblica":"San Juan 3:14-15 (Reina – Valera 1960)",
@@ -34,13 +34,12 @@
         "imagen": "https://media.ambito.com/p/547c614a3a554465ade30f1d343cce9f/adjuntos/239/imagenes/040/871/0040871894/1200x675/smart/jesusjpg.jpg",
         "object_fit": "cover",
         "cita_biblica":"Job 42:5-6 (Reina – Valera 1960)",
-        "info_cita":"De oídas te había oído; Mas ahora mis ojos te ven. Por tanto me aborrezco, y me arrepiento en polvo y ceniza."
+        "info_cita":"De oídas te había oído; Más ahora mis ojos te ven. Por tanto, me aborrezco, y me arrepiento en polvo y ceniza."
     },
     {
         "categoria": "Paso 1",
         "pregunta": "¿Cuál es el llamado que hace Dios a la humanidad?",
-        "respuesta": "QUE LO  VEAMOS A EL",
-        "incorecta_1": "ORRAR",
+        "respuesta": "QUE LO VEAMOS A ÉL",
         "incorecta_2": "CANTAR",
         "imagen": "https://www.denisonforum.org/wp-content/uploads/2023/04/jesus-hand-out-1120.jpg",
         "object_fit": "cover",

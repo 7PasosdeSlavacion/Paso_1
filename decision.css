@@ -93,10 +93,6 @@ input[type="checkbox"]:checked::after {
     display: block;
 }
 
-.reflexion {
-    text-align: center;
-}
-
 a {
     text-decoration: none;
     color: black;

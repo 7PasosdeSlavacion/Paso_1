@@ -5,6 +5,9 @@
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -26,7 +29,7 @@ h1 {
 }
 
 @keyframes bgText {
-    to{
+    to {
         background-position: 200% center;
     }
 }
@@ -39,11 +42,32 @@ h1 {
     height: 100vh;
 }
 
+img {
+    filter: drop-shadow(0px 7px 21px #fba806);
+    max-width: 100%; /* Aseguramos que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Altura ajustada automáticamente */
+    animation: rotar 5s linear infinite;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotateY(180deg);
+    }
+
+    to {
+        transform: rotateY(-180deg);
+    }
+}
+
 /* Utilizamos una media query para aplicar estilos específicos para dispositivos con un ancho máximo de 600px */
 @media (max-width: 600px) {
     h1 {
         font-size: 30px; /* Tamaño de fuente más pequeño para dispositivos móviles */
-        margin: 50px; /* Margen más pequeño para dispositivos móviles */
+        margin: 20px; /* Margen más pequeño para dispositivos móviles */
         padding: 20px; /* Añadimos un padding para asegurarnos de que el texto no se corte */
     }
 }
