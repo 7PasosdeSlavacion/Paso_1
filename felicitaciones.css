@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -44,7 +45,7 @@ h1 {
 
 img {
     filter: drop-shadow(0px 7px 21px #fba806);
-    max-width: 100%; /* Aseguramos que la imagen no exceda el ancho del contenedor */
+    max-width: 20%; /* Aseguramos que la imagen no exceda el ancho del contenedor */
     height: auto; /* Altura ajustada automáticamente */
     animation: rotar 5s linear infinite;
 }
@@ -69,5 +70,9 @@ img:hover {
         font-size: 30px; /* Tamaño de fuente más pequeño para dispositivos móviles */
         margin: 20px; /* Margen más pequeño para dispositivos móviles */
         padding: 20px; /* Añadimos un padding para asegurarnos de que el texto no se corte */
+    }
+
+    img{
+        display: block;
     }
 }

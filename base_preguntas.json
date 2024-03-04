@@ -40,6 +40,7 @@
         "categoria": "Paso 1",
         "pregunta": "¿Cuál es el llamado que hace Dios a la humanidad?",
         "respuesta": "QUE LO VEAMOS A ÉL",
+        "incorecta_1": "ORAR",
         "incorecta_2": "CANTAR",
         "imagen": "https://www.denisonforum.org/wp-content/uploads/2023/04/jesus-hand-out-1120.jpg",
         "object_fit": "cover",
