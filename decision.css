@@ -12,25 +12,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* Esto asegura que el cuerpo ocupe toda la altura de la ventana del navegador */
     margin: 0;
 }
 
-.wraper {
-    text-align: center; /* Alineamos los elementos horizontalmente */
-    position: fixed; /* Fijar posición */
-    bottom: 60px; /* Alinear abajo y dar espacio al botón */
-    left: 50%; /* Centrar horizontalmente */
-    transform: translateX(-50%); /* Ajustar para centrar horizontalmente */
+.wraper, .boton {
+    text-align: center;
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .boton {
-    text-align: center;
-    position: fixed; /* Fijar posición */
-    bottom: 0; /* Alinear abajo */
-    left: 50%; /* Centrar horizontalmente */
-    transform: translateX(-50%); /* Ajustar para centrar horizontalmente */
-    margin-bottom: 30px; /* Ajustamos el margen inferior del botón */
+    bottom: 0;
+    margin-bottom: 30px;
 }
 
 button {
@@ -72,15 +67,11 @@ input[type="checkbox"] {
     background-color: goldenrod;
     border-radius: 5px;
     cursor: pointer;
-    /*display: flex;*/
     align-items: center;
     justify-content: center;
     outline: none;
     display: inline-block;
-   /* margin-right: 10px;*/
 }
-
-
 
 input[type="checkbox"]:after {
     font-family: "Font Awesome 6 Free";
@@ -119,9 +110,10 @@ a:hover {
 .contenedor {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centramos verticalmente los elementos */
-    align-items: center; /* Centramos horizontalmente los elementos */
-    height: 100vh; /* Para ocupar toda la altura de la ventana */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 100px; /* Agregamos un margen inferior al contenedor principal */
 }
 
 .desicion {
@@ -129,29 +121,8 @@ a:hover {
     margin-bottom: 30px; /* Ajustamos el margen inferior del texto */
 }
 
-@media (max-width: 600px) {
-    .wraper, .boton {
-        text-align: center; /* Alineamos los elementos horizontalmente */
-        position: fixed; /* Fijar posición */
-        bottom: 60px; /* Alinear abajo y dar espacio al botón */
-        left: 50%; /* Centrar horizontalmente */
-        transform: translateX(-50%); /* Ajustar para centrar horizontalmente */
-    }
-
-    input[type="checkbox"], label {
-        display: inline-block; /* Para que el label ocupe solo el ancho necesario */
-        vertical-align: middle; /* Para alinear verticalmente el texto con el checkbox */
-    }
-
-    .boton {
-        margin-bottom: 80px; /* Ajustamos el margen superior del botón */
+@media (max-width: 500px) {
+    .desicion {
+        margin-bottom: 50px; /* Ajustamos el margen inferior del texto para dispositivos más pequeños */
     }
 }
-
-
-
-
-
-
-
-

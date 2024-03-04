@@ -3,21 +3,15 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0;
     margin: 0;
-    transition: 0.5s;
     text-transform: uppercase;
 }
 
 #logo {
     position: absolute;
-    /* Posiciona la imagen de forma absoluta */
     top: 10px;
-    /* Ajusta la distancia desde la parte superior */
     left: 10px;
-    /* Ajusta la distancia desde la izquierda */
     width: 50px;
-    /* Establece el ancho de la imagen */
     height: auto;
-    /* Permite que la altura se ajuste automáticamente según el ancho */
     filter: drop-shadow(0px 7px 21px #fba806);
     cursor: pointer;
 }
@@ -32,15 +26,20 @@ body {
 
 .contenedor {
     display: flex;
-    max-width: 1700px;
-    /* ajustar el ancho máximo según sea necesario */
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
 }
 
 .encabezado {
     background-color: white;
     flex: 1;
     padding: 20px;
-    width: 1000px;
+    max-width: 100%;
+    text-align: center;
+    /* Centramos el texto y los botones */
+
 }
 
 .pregunta {
@@ -54,18 +53,21 @@ body {
 }
 
 .texto {
-    /* background-color: red;*/
     flex: 1;
     padding: 20px;
     margin: 20px;
+    max-width: 100%;
+    text-align: center;
+    /* Centramos el texto */
+
 }
 
 .btn {
     background: white;
-    width: 60%;
+    width: 100%;
     padding: 10px;
     margin: 5px;
-    max-width: 550px;
+    max-width: 100%;
 }
 
 .btn:hover {
@@ -89,7 +91,6 @@ body {
     padding: 15px;
     font-size: 40px;
     color: white;
-
 }
 
 .otros {
@@ -110,27 +111,28 @@ body {
 }
 
 
-
+/* Media Query para dispositivos con un ancho máximo de 600px (dispositivos móviles) */
 @media (max-width: 600px) {
-    .contenedor {
-        flex-direction: column;
-        align-items: center; /* Centramos los elementos horizontalmente */
+    .encabezado {
+        padding: 10px;
     }
-    .boton, .checkbox-container {
-        margin-top: 10px; /* Ajustamos el margen entre el botón y el checkbox */
-        text-align: center; /* Alineamos los elementos horizontalmente */
+
+    .pregunta {
+        font-size: 20px;
     }
-    input[type="checkbox"] {
-        height: 25px; /* Ajustamos el tamaño del checkbox para dispositivos móviles */
-        width: 25px;
+
+    .texto {
+        padding: 10px;
+        margin: 10px;
     }
-    input[type="checkbox"]:after {
-        font-size: 18px; /* Ajustamos el tamaño del icono dentro del checkbox */
+
+    .btn {
+        font-size: 16px;
+        max-width: 100%;
     }
-    button {
-        font-size: 16px; /* Ajustamos el tamaño del texto del botón */
+
+    .encabezado .btn {
+        text-align: center;
+        /* Centramos los botones en modo móvil */
     }
 }
-
-
-
