@@ -73,6 +73,6 @@ img:hover {
     }
 
     img{
-        display: block;
+          max-width: 100%; /* Aseguramos que la imagen no exceda el ancho del contenedor */
     }
 }
