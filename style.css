@@ -70,7 +70,7 @@ body {
     width: 100%;
     padding: 10px;
     margin: 5px;
-   /* max-width: 100%;*/
+    max-width: 100%;
 }
 
 .btn:hover {
@@ -114,13 +114,13 @@ body {
 }
 
 .flecha {
-    margin-right: 500px;
+    margin-right: 360px;
     animation: parpadeo 1s infinite;
 }
 
-.btns{
-text-align: center;
-justify-content: center;
+.btns {
+    text-align: center;
+    justify-content: center;
 }
 
 @keyframes parpadeo {
@@ -156,10 +156,10 @@ justify-content: center;
 
     .btn {
         font-size: 16px;
-       /* max-width: 100%;*/
+         max-width: 100%;
     }
 
-    .btns{
+    .btns {
         align-items: center;
         text-align: center;
     }
@@ -170,9 +170,9 @@ justify-content: center;
     }
 
     .flecha {
-       /* margin-right: 700px;*/
-        margin-left: 50px;
-       /* margin-bottom: 20px;*/
+        /* margin-right: 300px;*/
+        padding-left: 80px;
+        margin-bottom: 20px;
         animation: parpadeo 1s infinite;
     }
 }
