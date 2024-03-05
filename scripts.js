@@ -4,7 +4,8 @@ function inicio(){
 }
 
 function salir() {
-window.close();
+    var url = 'https://www.google.com';
+    window.location.href = url
 }
 
 function alexis(){
