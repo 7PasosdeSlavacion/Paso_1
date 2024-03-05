@@ -61,7 +61,7 @@ img {
     filter: drop-shadow(0px 7px 21px #fba806);
     width: 35vw; /* Tamaño de la imagen relativo al ancho de la pantalla */
     height: auto; /* Altura ajustada automáticamente */
-    animation: rotar 5s linear infinite;
+    animation: rotar 4s linear infinite;
 }
 
 img:hover {
@@ -70,11 +70,11 @@ img:hover {
 
 @keyframes rotar {
     from {
-        transform: rotateY(180deg);
+        transform: rotateY(360deg);
     }
 
     to {
-        transform: rotateY(-180deg);
+        transform: rotateY(280deg);
     }
 }
 

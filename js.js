@@ -22,6 +22,7 @@ function Pregunta_Es(n) {
     style("btn1").display = "none";
     style("btn2").display = "none";
     style("btn3").display = "none";
+    style("flecha").display = "block";
     existe_otros()
     style("imagen").objectFit = pregunta.object_fit;
     if (pregunta.imagen) {
@@ -103,6 +104,7 @@ function mostrar() {
     style("btn1").display = "block";
     style("btn2").display = "block";
     style("btn3").display = "block";
+    style("flecha").display = "none";
     desordenarRespuestas(pregunta);
     existe_otros()
 
@@ -195,4 +197,20 @@ function readText(ruta_local) {
 function inicio(){
     var url = "index.html";
     window.location.href = url;
+}
+
+function reflexion(){
+    var url = "reflexion.html";
+    window.location.href = url;
+}
+
+function alexis(){
+    var url = "alexis.html";
+    window.location.href = url;
+}
+
+function quitar(){
+    style("flecha").display = "none";
+    style("flecha2").display = "block";
+
 }
