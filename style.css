@@ -145,7 +145,7 @@ body {
     }
 
     .pregunta {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .texto {
@@ -154,12 +154,13 @@ body {
         text-align: center;
     }
 
-    .btn {
-        font-size: 16px;
+    .texto .btn{
+        font-size: 15px;
          max-width: 100%;
+         width: 300px;
     }
 
-    .btns {
+    .btns{
         align-items: center;
         text-align: center;
     }
@@ -174,5 +175,9 @@ body {
         padding-left: 80px;
         margin-bottom: 20px;
         animation: parpadeo 1s infinite;
+    }
+
+    .texto div{
+        font-size: 17px;
     }
 }

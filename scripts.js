@@ -17,3 +17,28 @@ function alexis(){
 var confettiSettings = { target: 'my-canvas' };
 var confetti = new ConfettiGenerator(confettiSettings);
 confetti.render();
+
+function alternarVideo() {
+    var video = document.getElementById("my-video");
+    var boton = document.getElementById("toggle-button");
+    var flecha = document.getElementById("flecha");
+    if (video.style.display === "none") {
+        video.style.display = "block";
+        boton.style.display = "none";
+        video.play();
+        flecha.style.display = "none";
+    } else {
+        video.style.display = "none";
+        boton.style.display = "block";
+        video.pause();
+        flecha.style.display = "block";
+    }
+}
+
+function mostrarBoton() {
+    var video = document.getElementById("my-video");
+    var boton = document.getElementById("toggle-button");
+    video.style.display = "none";
+    boton.style.display = "block";
+    flecha.style.display = "block";
+}       

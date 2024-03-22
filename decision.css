@@ -149,4 +149,10 @@ a:hover {
     .desicion {
         margin-bottom: 50px; /* Ajustamos el margen inferior del texto para dispositivos más pequeños */
     }
+
+    .desicion h2, p{
+   font-size: 35px;
+   padding: 0;
+   margin: 0;
+    }
 }

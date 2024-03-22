@@ -15,7 +15,15 @@
 
     <h1>FELICITACIONES</h1>
 
+    <!-- Botón para alternar el video -->
+    <button id="toggle-button" onclick="alternarVideo()"><ion-icon name="play-circle" style="width: 30px; height: 30px;"></ion-icon></button>
+
     <img src="7 pasos de Salvacion.png" height="400px" style="padding: 10px;" onclick="alexis()">
+
+    <video id="my-video" onended="mostrarBoton()">
+        <source src="Primer_Paso.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+    </video>
     
     <div class="flecha" id="flecha">
         <img src="Logo Click.png" alt="" height="40px" style="margin-right: 525px; margin: -10px;">
@@ -28,7 +36,7 @@
         <button onclick="inicio()">Inicio</button>
     </div>
 
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script src="index.min.js"></script>
     <script src="scripts.js"></script>
 </body>

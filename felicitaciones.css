@@ -47,7 +47,6 @@ img {
     height: auto;  
     filter: drop-shadow(0px 7px 21px #fba806);
     display: flex;
-    animation: parpadeo 5s infinite;
 }
 
 img:hover {
@@ -81,6 +80,16 @@ a {
     animation: parpadeo 0.5s infinite;
 }
 
+#toggle-button {
+    display: block;
+    margin: 0 auto; /* Centra el botón horizontalmente */
+}
+
+#my-video {
+    display: none; /* Oculta el video inicialmente */
+    width: 50%; /* Ajusta el ancho del video al 50% del contenedor */
+    margin: 0 auto; /* Centra el video horizontalmente */
+}
 
 @keyframes parpadeo {
     0% {
@@ -116,5 +125,13 @@ a {
 
     img {
         max-width: 100%; /* Aseguramos que la imagen no exceda el ancho del contenedor */
+    }
+    .flecha{
+        /*margin-bottom: 100px;*/
+        margin-top: -300px;
+    }
+
+    .boton {
+        padding-top:310px ;
     }
 }

@@ -59,8 +59,8 @@ span {
 
 img {
     filter: drop-shadow(0px 7px 21px #fba806);
-    width: 35vw; /* Tamaño de la imagen relativo al ancho de la pantalla */
-    height: auto; /* Altura ajustada automáticamente */
+    width: 25vw; /* Tamaño de la imagen relativo al ancho de la pantalla */
+    height: 50vh; /* Altura ajustada automáticamente */
     animation: rotar 4s linear infinite;
 }
 
@@ -82,6 +82,37 @@ img:hover {
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.blugs{
+    position: relative;
+    display: flex;
+}
+
+.blugs span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #fba806;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #352e7d, 0 0 50px #fba806, 0 0 100px #fba806;
+    animation: animate 15s linear infinite; 
+    animation-duration: calc(125s / var(--i));
+}
+
+.blugs span:nth-child(even) {
+    background-color: #ddad11;
+    box-shadow: 0 0 0 10px #0b91a8, 0 0 50px #d6d30e, 0 0 100px #d6d30e;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
 }
 
 /* Media Query para dispositivos con un ancho máximo de 768px (tabletas y teléfonos) */
